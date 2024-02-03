@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+/* Import the Protest Riot font */
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot:wght@400;700&display=swap');
+
+.body {
+    background-color: #2b3791;
+    font-family: 'Protest Riot', sans-serif;
+    color: white;
+    margin: 36px 36px; /*36 for top and bottom, 36px for left and right */
+    font-size: 22px;
+    text-align: center;
+}
+
+/* */

@@ -1,0 +1,31 @@
+.background {
+    background-image: url("HomeImage.png");
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+
+    box-shadow: inset 0px 21px 38px -7px rgba(0,0,0,0.33);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    color: white;
+    padding: 15px 30px 15px 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+    text-shadow: 0px 0px 4px black;
+
+    &:hover {
+        text-decoration: underline;
+        text-underline-offset: 8px;
+        text-decoration-thickness: 3px;
+    }
+
+}

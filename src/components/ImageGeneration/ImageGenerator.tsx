@@ -9,7 +9,6 @@ import { itemNames } from "../../App";
 
 const ImageGenerator = () => {
   const [image_url, setImage_url] = useState("/");
-  let inputRef = useRef(null);
 
   const imageGenerator = async () => {
     let prompt: string = "Slumber party with: ";

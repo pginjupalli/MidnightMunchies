@@ -1,9 +1,8 @@
 interface ItemCardProp {
-  name: string;
   image: string;
 }
 
-function ItemImage({ name, image }: ItemCardProp) {
+function ItemImage({ image }: ItemCardProp) {
   return (
     <header onClick = {(event) => event.currentTarget.style.display = "none"} className="flex flex-col items-center justify-center w-56 h-56 m-5 bg-[#a492d1] rounded-[50px] shadow-2xl hover:scale-105 transition-[2s]">
       <img

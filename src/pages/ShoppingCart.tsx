@@ -7,7 +7,7 @@ interface ShoppingCartProp {
 const ShoppingCart = ({items}: ShoppingCartProp) => {
   return (
     <div>
-        <b><SectionTitle title = "Your Shopping Cart!"/></b>
+        <SectionTitle title = "Your Shopping Cart!"/>
         <ul>
           {items.map((item) => <li>Hi</li>)}
         </ul>

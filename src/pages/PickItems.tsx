@@ -8,22 +8,22 @@ interface PickItemsProp {
 const PickItems = ({func}: PickItemsProp) => {
   const items = [
     {
-      name: "Apple",
-      image: "",
+      name: "Milkshake",
+      image: "ItemIcons/Lemonade.png",
     },
     {
-      name: "Banana",
-      image: "",
+      name: "Lemonade",
+      image: "ItemIcons/Milkshake.png",
     },
     {
-      name: "Carrot",
-      image: "",
+      name: "Soda",
+      image: "ItemIcons/Soda.png",
     }
   ];
 
   return (
     <div>
-      <b><SectionTitle title="Pick Your Items!" /></b>
+      <SectionTitle title="Pick Your Items!" />
       <ul className="flex flex-wrap justify-center p-5">
         {items.map((item) => (
           <li>

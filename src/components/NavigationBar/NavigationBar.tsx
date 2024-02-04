@@ -5,8 +5,16 @@ const NavigationBar = () => {
     <div className="background">
       <ul className="nav-links">
         <li className="nav-link">Home</li>
-        <li className="nav-link">Pick Items</li>
-        <li className="nav-link">About Us</li>
+        <li className="nav-link">
+          <a href = "#items">
+            Pick Items
+          </a>
+        </li>
+        <li className="nav-link">
+          <a href = "#about">
+            About Us
+          </a>
+        </li>
       </ul>
     </div>
   );

@@ -5,7 +5,7 @@ import "./Button.css"
 var stateButton = true;
 
 const Button = () => {
-    const func = () => {
+    const func Clicked = () => {
         const button = document.getElementById('myButton');
         stateButton = (stateButton ? false: true)
     }

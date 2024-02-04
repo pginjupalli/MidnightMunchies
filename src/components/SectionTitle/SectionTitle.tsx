@@ -5,6 +5,7 @@ interface SectionTitleProp {
 }
 
 const SectionTitle = ({title}: SectionTitleProp) => {
+  
   return (
     <h1 className="title"><strong>{title}</strong></h1>
   )

@@ -5,25 +5,37 @@ const NavigationBar = () => {
     <div className="background">
       <ul className="nav-links">
         <li className="nav-link">Home</li>
-        <li className="nav-link">
-          <button onClick={() => {
+        <li className="nav-link" onClick={() => {
             const element = document.getElementById('items');
             element?.scrollIntoView({
               behavior: 'smooth'
             })
           }}>
             Pick Items
-          </button>
         </li>
-        <li className="nav-link">
-          <button onClick={() => {
+        <li className="nav-link" onClick={() => {
+            const element = document.getElementById('cart');
+            element?.scrollIntoView({
+              behavior: 'smooth'
+            })
+          }}>
+            Shopping Cart
+        </li>
+        <li className="nav-link" onClick={() => {
+            const element = document.getElementById('generator');
+            element?.scrollIntoView({
+              behavior: 'smooth'
+            })
+          }}>
+            Image Generator
+        </li>
+        <li className="nav-link" onClick={() => {
             const element = document.getElementById('about');
             element?.scrollIntoView({
               behavior: 'smooth'
             })
           }}>
             About Us
-          </button>
         </li>
       </ul>
     </div>

@@ -49,7 +49,9 @@ function App() {
       </div>
 
       <hr className="w-1/2 h-2 m-auto bg-[#fff3e3] my-10 rounded-lg"></hr>
-      <ImageGenerator />
+      <div id = "generator">
+        <ImageGenerator />
+      </div>
       <hr className="w-1/2 h-2 m-auto bg-[#fff3e3] my-10 rounded-lg"></hr>
     </div>
   );

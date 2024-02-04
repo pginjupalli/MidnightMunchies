@@ -3,7 +3,7 @@ import AboutUs from "./pages/AboutUs";
 import Homepage from "./pages/Homepage";
 import PickItems from "./pages/PickItems";
 import ShoppingCart from "./pages/ShoppingCart";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useRef } from "react";
 
 function App() {
@@ -18,9 +18,11 @@ function App() {
       name: name,
       image: image,
     };
+    
 
     setItems([...items, newItem]);
   };
+  
 
   return (
     <div className="">
@@ -33,7 +35,11 @@ function App() {
         <PickItems func={addItem} />
       </div>
       <hr className="w-1/2 h-2 m-auto bg-[#fff3e3] my-10 rounded-lg"></hr>
-      <ShoppingCart items={items} />
+      
+      <div id = "cart">
+        <ShoppingCart items={items} />
+      </div>
+      
       <hr className="w-1/2 h-2 m-auto bg-[#fff3e3] my-10 rounded-lg"></hr>
       
     </div>

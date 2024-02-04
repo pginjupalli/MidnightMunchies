@@ -1,4 +1,5 @@
 import "./App.css";
+import ImageGenerator from "./components/ImageGeneration/ImageGenerator";
 import AboutUs from "./pages/AboutUs";
 import Homepage from "./pages/Homepage";
 import PickItems from "./pages/PickItems";
@@ -41,6 +42,8 @@ function App() {
       </div>
       
       <hr className="w-1/2 h-2 m-auto bg-[#fff3e3] my-10 rounded-lg"></hr>
+
+      <ImageGenerator/>
       
     </div>
   );

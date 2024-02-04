@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import "./ImageGenerator.css";
 import default_image from "/Placeholder.png";
 import SectionTitle from "../SectionTitle/SectionTitle";

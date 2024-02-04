@@ -1,4 +1,5 @@
 import "./App.css";
+import ImageGenerator from "./components/ImageGeneration/ImageGenerator";
 import AboutUs from "./pages/AboutUs";
 import Homepage from "./pages/Homepage";
 import PickItems from "./pages/PickItems";
@@ -7,7 +8,6 @@ import { useState, useEffect } from "react";
 import { useRef } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import ImageGenerator from "./components/ImageGeneration/ImageGenerator";
 
 const itemNames = new Set();
 

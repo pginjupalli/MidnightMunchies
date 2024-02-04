@@ -1,15 +1,18 @@
+import SectionTitle from "../SectionTitle/SectionTitle"
 import "./TextSection.css"
 
-const TextSection = () => {
+interface TextSectionProp {
+  name: string,
+  paragraph: string,
+}
+
+const TextSection = ({name, paragraph}: TextSectionProp) => {
   return (
-    <>
-    <p className="body">
-        Midnight Munchies is a website designed to plan slumber parties! 
-        After creating a new party, choose from a wide selection of themes, 
-        drinks, food, sleeping masks, decorations, and more to customize 
-        your party to your liking. 
-    </p>
-    </>
+    <div className="flex items-center justify-center">
+      <SectionTitle title = {name}/>
+      <h2 className="font text-white text-sm">{paragraph}</h2>
+    </div>
+
   )
 }
 

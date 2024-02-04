@@ -8,11 +8,11 @@ interface PickItemsProp {
 const PickItems = ({func}: PickItemsProp) => {
   const items = [
     {
-      name: "Milkshake",
+      name: "Lemonade",
       image: "ItemIcons/Lemonade.png",
     },
     {
-      name: "Lemonade",
+      name: "Milkshake",
       image: "ItemIcons/Milkshake.png",
     },
     {
